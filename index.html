@@ -7,16 +7,30 @@
     <link rel="stylesheet" href = "style.css">
 </head>
 <body>
+    <div class="full-img" id="fullImgBox">
+        <img src="images/img1.jpg" id="fullImg">
+        <span onclick="closeFullImg()">x</span>
+    </div>
     <div class="img-gallery">
-        <img src="images/img1.jpg">
-        <img src="images/img2.jpg">
-        <img src="images/img3.jpg">
-        <img src="images/img4.jpg">
-        <img src="images/img5.jpg">
-        <img src="images/img6.jpg">
-        <img src="images/img7.png">
-        <img src="images/img8.jpg">
+        <img src="images/img1.jpg" onclick="openFullImg()">
+        <img src="images/img2.jpg" onclick="openFullImg()">
+        <img src="images/img3.jpg" onclick="openFullImg()">
+        <img src="images/img4.jpg" onclick="openFullImg()">
+        <img src="images/img5.jpg" onclick="openFullImg()">
+        <img src="images/img6.jpg" onclick="openFullImg()">
+        <img src="images/img7.png" onclick="openFullImg()">
+        <img src="images/img8.jpg" onclick="openFullImg()">
 
     </div>
+
+    <script>
+        var fullImgBox = document.getElementById("fullImgBox");
+        var fullImg = document.getElementById("fullImg");
+
+        function openFullImg(){
+            fullImgBox.style.display = "flex"; //changing the display in CSS, making it visible
+        }
+
+    </script>
 </body>
 </html>
