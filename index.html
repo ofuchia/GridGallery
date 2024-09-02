@@ -12,14 +12,14 @@
         <span onclick="closeFullImg()">x</span>
     </div>
     <div class="img-gallery">
-        <img src="images/img1.jpg" onclick="openFullImg()">
-        <img src="images/img2.jpg" onclick="openFullImg()">
-        <img src="images/img3.jpg" onclick="openFullImg()">
-        <img src="images/img4.jpg" onclick="openFullImg()">
-        <img src="images/img5.jpg" onclick="openFullImg()">
-        <img src="images/img6.jpg" onclick="openFullImg()">
-        <img src="images/img7.png" onclick="openFullImg()">
-        <img src="images/img8.jpg" onclick="openFullImg()">
+        <img src="images/img1.jpg" onclick="openFullImg(this.src)">
+        <img src="images/img2.jpg" onclick="openFullImg(this.src)">
+        <img src="images/img3.jpg" onclick="openFullImg(this.src)">
+        <img src="images/img4.jpg" onclick="openFullImg(this.src)">
+        <img src="images/img5.jpg" onclick="openFullImg(this.src)">
+        <img src="images/img6.jpg" onclick="openFullImg(this.src)">
+        <img src="images/img7.png" onclick="openFullImg(this.src)">
+        <img src="images/img8.jpg" onclick="openFullImg(this.src)">
 
     </div>
 
@@ -27,8 +27,10 @@
         var fullImgBox = document.getElementById("fullImgBox");
         var fullImg = document.getElementById("fullImg");
 
-        function openFullImg(){
+        function openFullImg(pic){
+
             fullImgBox.style.display = "flex"; //changing the display in CSS, making it visible
+            fullImg.src = pic; //updating the src for fullImg
         }
 
     </script>
