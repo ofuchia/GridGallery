@@ -48,8 +48,8 @@ pre{
 
 #neptune-text{
   position: relative;
-  left: 1120px; 
-  bottom: 670px; 
+  left: 1250px; 
+  bottom: 660px; 
   width: auto; /*height and width for the SVG cause it's rel to that*/
   height: 100px;
 }
