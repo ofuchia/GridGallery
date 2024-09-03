@@ -60,7 +60,7 @@ body {
 
 
 svg {
-  width: 200px;
+  width: 1000px;
   height: 200px;
 }
 path {
@@ -73,6 +73,13 @@ path {
   border-radius: 20px;
   box-shadow: 0 32px 75px rgba(68, 75, 136, 0.2);
 }
+
+svg:hover {
+  transform: scale(0.8) rotate(15deg);
+  /* border-radius: 20px; */
+  /* box-shadow: 0 32px 75px rgba(68, 75, 136, 0.2); */
+}
+
 
 .full-img {
   width: 100%;
