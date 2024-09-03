@@ -10,6 +10,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow: hidden; /*makes webstie not scrollable*/
 } 
 
 .img-gallery {
@@ -29,22 +30,34 @@ body {
   cursor: pointer;
 }
 
+#neptune-text{
+  position: relative;
+  left: 1120px; 
+  bottom: 670px; 
+  width: auto; /*height and width for the SVG cause it's rel to that*/
+  height: 100px;
+}
+
+
 #first {
   /*use margin to not disturb the shadow on hover*/
   height: 130px;
   width: 150px;
   margin-top: 280px;
-  margin-left: -50px;
+  margin-left: -10px;
   margin-bottom: 80px; /*adds space between first and the one under it*/
-  /*  */
+ 
 }
 
 #second {
-  margin-top: 120px;
+  margin-top: 130px;
+  margin-left: 10px;
+  height: 120px;
 }
 
 #third {
   margin-top: 1rem; /*looks better with 1rm than 1rem. but rm isnt a measurement so?*/
+  margin-left: 50px;
   height: 120px;
   width: 120px;
   /* transform: rotate(10deg); overwriting hover's*/
@@ -54,11 +67,41 @@ body {
   /* transform: rotate(-11deg); */
   height: 120px;
   width: 120px;
-  margin-left: 40px;
+  margin-left: 60px;
+  margin-top: 10px;
   border-radius: 50%;
 }
 
+#fifth{
+  height: 130px;
+  width: auto;
+  margin-left: 185px;
+  margin-top: 50px;
+}
 
+#sixth{
+  height: 100px;
+  width: 100px;
+  position: relative;
+  bottom: 80px;
+  left:20px;
+}
+
+#seventh{
+  position: relative;
+  bottom:90px;
+  left: 40px;
+  height: 120px;
+
+}
+
+#eight{
+  position: relative;
+  bottom:225px;
+  right: 500px;
+  height: 110px;
+  width: 110px;
+}
 svg { /*width and height used to move svg image around*/
   width: 1250px;
   height: 200px;
