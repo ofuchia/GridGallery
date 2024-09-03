@@ -11,7 +11,23 @@ body {
   -o-background-size: cover;
   background-size: cover;
   overflow: hidden; /*makes webstie not scrollable*/
+  
 } 
+
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  color:black;
+  position: relative;
+  left: 50px;
+  top: 300px;
+}
+
+pre{
+  position: relative;
+  top: 170px;
+  left: 25px;
+}
 
 .img-gallery {
   width: 80%;
@@ -102,8 +118,9 @@ body {
   height: 110px;
   width: 110px;
 }
+
 svg { /*width and height used to move svg image around*/
-  width: 1250px;
+  width: 100px;
   height: 200px;
 }
 path {
