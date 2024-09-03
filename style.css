@@ -89,10 +89,13 @@ pre{
 }
 
 #fifth{
-  height: 130px;
+  position: relative;
+  top: -40px;
+  left: -65px;
+  height: 110px;
   width: auto;
-  margin-left: 185px;
-  margin-top: 50px;
+  /* margin-left: 185px;
+  margin-top: 50px; */
 }
 
 #sixth{
@@ -105,7 +108,7 @@ pre{
 
 #seventh{
   position: relative;
-  bottom:90px;
+  bottom:80px;
   left: 40px;
   height: 120px;
 
