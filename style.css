@@ -59,8 +59,8 @@ body {
 }
 
 
-svg {
-  width: 1000px;
+svg { /*width and height used to move svg image around*/
+  width: 1250px;
   height: 200px;
 }
 path {
