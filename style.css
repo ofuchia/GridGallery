@@ -58,6 +58,16 @@ body {
   border-radius: 50%;
 }
 
+
+svg {
+  width: 200px;
+  height: 200px;
+}
+path {
+  fill: url(#g-image);
+}
+
+
 .img-gallery img:hover {
   transform: scale(0.8) rotate(-15deg);
   border-radius: 20px;
